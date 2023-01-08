@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
 const _ = require("lodash");
-mongoose.connect("mongodb+srv://Arjunbackend1:nqKhz22ZiY5A7mHT@backend1.qtt6evb.mongodb.net/todolistDB?retryWrites=true&w=majority",{useNewUrlParser:true});
+mongoose.connect("mongodb+srv://Arjunbackend1:yYkyfVRDGKZobEGv@backend1.qtt6evb.mongodb.net/todolistDB?retryWrites=true&w=majority",{useNewUrlParser:true});
 
 const itemSchema ={
   name : String
